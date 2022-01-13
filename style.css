@@ -1,0 +1,82 @@
+body{
+    background: #F3F1FF;
+}
+.container{
+    max-width: 870px;
+    background: #fff;
+    border-radius: 5px;
+    align-items: center;
+    margin-top:30px;
+    padding: 15px; 
+
+}
+/* top player */
+.section_title{
+    color: blue;
+    padding-bottom: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.player img{
+    max-width: 56px;
+    border-radius: 50%;
+}
+.player h3{
+    font-size: 20px;
+    margin-left: 10px;
+}
+hr{
+    background:#D1D1D1;
+    clear: both;
+}
+/* top blog */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 15px;
+}
+.blog {
+    display: flex;
+}
+.blog-info{
+    margin-left: 10px;
+    padding: 5px;
+}
+.blog-info .blog_meta a{
+    text-decoration: none;
+}
+.blog img{
+    width: 150px;
+
+}
+.course_meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.curse img{
+    width: 240px;
+
+}
+.curse h2{
+    font-size: 16px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 15px;
+}
+.course_info{
+    margin:20px 0px ;
+}
