@@ -80,3 +80,30 @@ hr{
 .course_info{
     margin:20px 0px ;
 }
+/* midiaquery */
+/* mobale device */
+@media only screen and (max-width:680px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 15px;
+    }
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 15px;
+    }
+    
+}
+
+
